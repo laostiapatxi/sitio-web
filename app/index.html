@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" id="inicio">
 
 <head>
     <meta charset="utf-8">
@@ -28,35 +28,110 @@
     <![endif]-->
 
     <!-- Standard button -->
-    <button type="button" class="btn btn-default">Default</button>
 
-    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <button type="button" class="btn btn-primary">Primary</button>
+<div id="contenedor">
 
-    <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success">Success</button>
-
-    <!-- Contextual button for informational alert messages -->
-    <button type="button" class="btn btn-info">Info</button>
-
-    <!-- Indicates caution should be taken with this action -->
-    <button type="button" class="btn btn-warning">Warning</button>
-
-    <!-- Indicates a dangerous or potentially negative action -->
-    <button type="button" class="btn btn-danger">Danger</button>
-
-    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-    <button type="button" class="btn btn-link">Link</button>
-
-    <div class="hero-unit">
-        <h1>'Allo, 'Allo!</h1>
-        <p>You now have</p>
-        <ul>
-            <li>HTML5 Boilerplate</li>
-            <li>Sass</li>
-            <li>Modernizr</li>
-        </ul>
+    <div id="cabecera">
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html"><img id="slug" src="/imagenes/metalslug.png" onmouseover="this.src='/imagenes/metalslug.gif';" onmouseout="this.src='/imagenes/metalslug.png';"/></a>
     </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <li><h1 id="forocarros">Forocarros!</h1></li>
+        <li id="perro"><a href="info.html">Wiki</a></li>
+        <li id="perro"><a href="formulario.html">Suscribete</a></li>
+        <li id="perro" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Galeria<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="eeuu.html"><img src="/imagenes/eeuu.png">EEUU</a></li>
+            <li><a href="alemania.html"><img src="/imagenes/alemania.png">Alemania</a></li>
+            <li><a href="urss.html"><img src="/imagenes/urss.png">URSS</a>
+            </li>
+          </ul>
+        </li>
+                <li id="perro"><a href="recursos.html">Recursos</a></li>
+      </ul>
+      </form>
+
+      <ul   id="iconmenu" class="nav navbar-nav navbar-right">
+
+          <li id="panel1c"><a href="https://twitter.com/"></a></li>
+          <li id="panel2c"><a href="https://es-es.facebook.com/"></a></li>
+          <li id="panel3c"><a href="http://www.rss.nom.es/"></a></li>
+
+        </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+
+    <div id="indexmen">
+    <h2 id="be">¿Que es esto?</h2>
+    <p>Forocarros es una web hecha por y para fans de los carros blindados de la segunda guerra mundial.</p>
+    <p>Aqui podras encontrar una galeria de imagenes con los blindados mas carismaticos de la IIGM.</p>
+    <p>Asi como un tablon de anuncios con informacion sobre los diversos eventos relacionados con el mundo del carro blindado y reportajes interesantes.</p>
+
+    </div>
+    <div id="indexcon1">
+    <div id="indexcon">
+    <div id="uno"><h1>Ultimos contenidos</h1></div>
+    </div>
+    <div id="indexcon">
+    <div>
+    <div id="dos"><h3 >Espectacular reportaje del Tiger I</h3></div>
+    <!-- 16:9 aspect ratio -->
+
+   <div class="embed-responsive embed-responsive-16by9">
+      <video  class="embed-responsibe-item" loop="" controls="controls">
+      <source src="imagenes/avatar.mp4" type="video/mp4">
+      <source src="imagenes/video.ogg" type="video/ogg">
+      <source src="imagenes/video.webm" type="video/webm">
+      </video>
+
+
+
+      
+</div> 
+    <p>Sin duda un video genial acerda de esta maravilla de la ingenieria alemana.</p>
+    <p>El reportaje esta dividido en tres videos de 5 minutos de duracion cada uno aprox.</p>
+
+
+    </div>
+    </div>
+    <div id="indexcon">
+        <div>
+    <div id="dos"><h3 >Reunion del equipo directivo de Forocarros</h3></div>
+    <div>
+    <p>Aqui se nos puede ver en pleno desarrollo de ideas para la web</p>
+    <img id="equipo" class="img-responsive" src="imagenes/equipo.jpg">
+    </div>
+
+
+    </div>
+    </div>
+    </div>
+    <div id="pie">
+    <p id="bo">Para recibir noticias pincha <a class="aqui" href="formulario.html">AQUI</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
