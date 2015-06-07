@@ -6479,6 +6479,9 @@ button.close {
   background: url(../imagenes/suelo.jpeg);
   background-size: cover;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 #cabecera {
   height: 20%;
 }
@@ -6509,7 +6512,7 @@ button.close {
   border-radius: 10px;
   margin-right: 2%;
   margin-top: 2%;
-  width: 30%;
+  width: 37%;
   background: rgba(85, 85, 85, 0.8);
   text-align: left;
 }
@@ -6635,7 +6638,7 @@ p {
 #indexcon1 {
   margin-left: 1%;
   float: left;
-  width: 64%;
+  width: 55%;
 }
 #tu {
   text-align: center;
