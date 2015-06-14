@@ -3,32 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+        <link rel="stylesheet" href="styles/main.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>bootstrap less2</title>
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="../bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
 </head>
 
 <body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
-    <!-- Standard button -->
 
 
 
@@ -43,25 +27,25 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.html"><img id="slug" src="/imagenes/metalslug.png" onmouseover="this.src='/imagenes/metalslug.gif';" onmouseout="this.src='/imagenes/metalslug.png';"/></a>
+      <a href="index.html"><img id="slug" src="/imagenes/metalslug.png" alt="#" onmouseover="this.src='/imagenes/metalslug.gif';" onmouseout="this.src='/imagenes/metalslug.png';"/></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
        <li><h1 id="forocarros">Forocarros!</h1></li>
-        <li id="perro"><a href="info.html">Wiki</a></li>
-        <li id="perro"><a href="formulario.html">Suscribete</a></li>
-        <li id="perro" class="dropdown">
+        <li class="perro"><a href="info.html">Wiki</a></li>
+        <li class="perro"><a href="formulario.html">Suscribete</a></li>
+        <li class="perro" class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Galeria<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="eeuu.html"><img src="/imagenes/eeuu.png">EEUU</a></li>
-            <li><a href="alemania.html"><img src="/imagenes/alemania.png">Alemania</a></li>
-            <li><a href="urss.html"><img src="/imagenes/urss.png">URSS</a>
+            <li><a href="eeuu.html"><img src="/imagenes/eeuu.png" alt="#">EEUU</a></li>
+            <li><a href="alemania.html"><img src="/imagenes/alemania.png" alt="#">Alemania</a></li>
+            <li><a href="urss.html"><img src="/imagenes/urss.png" alt="#">URSS</a>
             </li>
           </ul>
         </li>
-                <li id="perro"><a href="recursos.html">Recursos</a></li>
+                <li class="perro"><a href="recursos.html">Recursos</a></li>
       </ul>
       </form>
 
@@ -81,19 +65,22 @@
     <div id="menu2">
 
         <p>
-            <h2>Recursos</h2>
+            <h3>Recursos</h3>
         </p>
         <p>
-            <span>1.-Paletton: <a href="http://paletton.com/palette.php?uid=c1M4A2f020k9lr%2B2HIJmqdadtn%2BhDko">Enlace</a> </span>
+            <span>1.-Paletton: <a href="http://paletton.com/#uid=53s1f0kEhuAVN7UL1b1msPwbGO8">Enlace</a> </span>
         </p>
         <p>
             <span>2.-Framework: <a href="http://getbootstrap.com/">Twitter Bootstrap</a>
                     </p>
         <p>
-            <a  href="https://github.com/laostiapatxi/sitio-web"><span >3.-Repositorio Github</span></a>
+           <span >3.-Repositorio </span> <a  href="https://github.com/laostiapatxi/sitio-web">Github</a>
                     </p>
         <p>
             <span>4.-Google Fonts: Roboto </span>
+            </p>
+        <p>
+            <span>5.-Optimizador de imagenes:<a href="http://www.vichaunter.com/tools/optimize/images/">Enlace.</a> </span>
             </p>
   
     </div>
@@ -130,29 +117,19 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
 
-    <!-- build:js scripts/plugins.js -->
-    <script src="../bower_components/bootstrap/js/affix.js"></script>
-    <script src="../bower_components/bootstrap/js/alert.js"></script>
     <script src="../bower_components/bootstrap/js/dropdown.js"></script>
-    <script src="../bower_components/bootstrap/js/tooltip.js"></script>
-    <script src="../bower_components/bootstrap/js/modal.js"></script>
-    <script src="../bower_components/bootstrap/js/transition.js"></script>
-    <script src="../bower_components/bootstrap/js/button.js"></script>
-    <script src="../bower_components/bootstrap/js/popover.js"></script>
-    <script src="../bower_components/bootstrap/js/carousel.js"></script>
-    <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
-    <script src="../bower_components/bootstrap/js/collapse.js"></script>
-    <script src="../bower_components/bootstrap/js/tab.js"></script>
-    <!-- endbuild -->
 
 
 
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
+
+<script src="../bower_components/bootstrap/js/collapse.js"></script>
+<script src="../bower_components/bootstrap/js/tab.js"></script>
+
+
+
+
+
 </body>
 
 </html>
